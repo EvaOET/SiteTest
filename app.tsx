@@ -6,9 +6,9 @@ import ExampleItem from "./Components/ExampleItem";
 
 let mainPage = (
     <ContentContainer>
-        <ExampleItem/>
-        <ExampleItem/>
-        <ExampleItem/>
+        <ExampleItem Name="Item 1"/>
+        <ExampleItem Name="Item 2"/>
+        <ExampleItem Name="Item 3"/>
     </ContentContainer>
 )
 
