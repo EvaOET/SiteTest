@@ -2,11 +2,10 @@
   "name": "sitetest",
   "version": "1.0.0",
   "description": "",
-  "main": "build/index.js",
   "scripts": {
     "start" : "parcel index.html",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build" : "parcel build app.tsx --no-content-hash --no-source-maps"
+    "build" : "parcel build index.html --no-content-hash --no-source-maps --dist-dir build"
   },
   "repository": {
     "type": "git",
