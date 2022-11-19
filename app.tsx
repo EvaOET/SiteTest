@@ -8,7 +8,7 @@ import CourseMenu from "./Components/CourseMenu";
 
 
 let MainPage = () => {
-    const [showMenu, setShowMenu] = useState(false);
+    const [showMenu, setShowMenu] = useState(true);
     const toggleState = () => setShowMenu((val) => !val);
     return (
         <ContentContainer>
